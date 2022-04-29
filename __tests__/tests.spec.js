@@ -115,7 +115,7 @@ describe("Comparaciones en JavaScript", () => {
         }
         */
 
-        const expression = language !== 1;
+        const expression = language !== "JavaScript";
 
         expect(expression).toEqual(false);
     })
