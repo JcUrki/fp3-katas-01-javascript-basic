@@ -93,19 +93,29 @@ describe("Comparaciones en JavaScript", () => {
     test("Usando el comparador de igualdad ===", () => {
         const number = 20;
         // Escribe aquí tu código
+        /* 
+        Otra option pero no es valida porque no es condicional
         if (number===20){
             expression = false;
         };
-    
+        */
+        const expression = number === 3;
+
         expect(expression).toEqual(false);
     })
 
     test("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
         // Escribe aquí tu código
+
+        /* 
+        Otra option pero no es valida porque no es condicional
         if (language !== 1){
             expression = false;
         }
+        */
+
+        const expression = language !== 1;
 
         expect(expression).toEqual(false);
     })
